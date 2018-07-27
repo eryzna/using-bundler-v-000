@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 group :test do
-  rspec
+  gem rspec
 end
 gem "rspec", :group => "test"
 #gem "sinatra"
