@@ -1,4 +1,7 @@
 source "https://rubygems.org"
+group :test do
+  rspec
+end
 gem "rspec", :group => "test"
 #gem "sinatra"
 gem "hashie"
